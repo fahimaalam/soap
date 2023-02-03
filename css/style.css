@@ -1,0 +1,302 @@
+/*
+Author Name: Fahima Alam;
+Mail Address:fahimaalamofficial@gmail.com;
+Site url:;
+GPL license:3.4.1;
+*/
+
+/*
+Project Name: Business
+====Index====
+1. Home
+2. About us
+3. Our Approach
+4. Our Work
+5. Free Consultation
+6. Media Query
+*/
+/*********************** THEME CSS FILE*********************** /
+/*********************** Global CSS ***********************/
+body{
+  color: #545454;
+  background-color: #FFFFFF;
+}
+@font-face {
+   font-family: Roxborough;
+   src: url(../fonts/Roxborough CF.ttf);
+}
+h2{
+  font-size: 35px;
+  font-weight: bold;
+  padding: 70px 0px 0px 0px;
+}
+h3{
+  font-size: 35px;
+  font-weight: bold;
+  padding: 80px 0px 10px 0px;
+}
+h4{
+  font-size: 16px;
+  font-weight: bold;
+}
+h5{
+  font-size: 50px;
+  color: #343333;
+  font-weight: bold;
+}
+h6{
+  font-size: 20px;
+  color: #545454;
+  font-weight: bold;
+  text-align: center;
+  padding: 35px 0px 0px 0px;
+}
+p{
+  color: #6A6A6A;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 0px 0px 0px;
+  font-size: 16px;
+}
+/*********************** Header CSS ***********************/
+header{
+}
+.header-one{
+  background-color:#EEF0EB;
+}
+header p{
+  color: #6A6A6A;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 0px 0px 0px;
+  font-size: 14px;
+}
+.header-two{
+  background-color:skyblue;
+  display: flex;
+}
+.header-two:hover{
+  background-color:#A1BF73;
+}
+.header-two-content{
+  text-align: left;
+}
+.header-two-content p{
+  font-size: 16px;
+  font-weight: bold;
+  color: #545454;
+  padding: 5px 0px 0px 0px;
+}
+.header-three-content{
+}
+.header-three-content ul{
+  list-style: none;
+  text-align: right;
+  padding: 5px 0px 0px 0px;
+  color: #424242;
+}
+.header-three-content ul li{
+  text-decoration: none;
+  display: inline;
+  transition: 0.4s ease-in-out;
+}
+.header-three-content ul li a{
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0px 5px 0px 0px;
+}
+.header-three-content ul li i{
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0px 5px 0px 0px;
+}
+.fa.fa-shopping-basket{
+  font-size: 16px;
+  font-weight: bold;
+ }
+ .fa.fa-search{
+  font-size: 16px;
+  font-weight: bold;
+ }
+ .header-three-content ul li:hover{
+  color: white;
+  font-size: 24px;
+}
+/******************* Navbar Section ******************/
+.navbar-brand {
+  padding: 0px 0px 0px 65px;
+}
+.nav-item{
+  font-size: 16px;
+  font-weight: bold;
+}
+.navbar-expand-lg .navbar-collapse {
+  padding: 0px 120px 0px 0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  color: #424242;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  background: #80604C;
+  border: none;
+}
+.dropdown-menu li a{
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+  color: green;
+  font-size: 16px;
+  text-decoration: blink;
+}
+/******************* Hero Section ******************/
+.hero{
+  margin: 15px 0px 0px 0px;
+}
+.hero-content{
+  display: flex;
+}
+.hero-content-two p{
+  color: #6A6A6A;
+}
+.carousel-dark .carousel-caption {
+  margin: 0px 0px 200px 0px;
+}
+.carousel-indicators {
+  margin: 0px 0px 145px 0px;
+  color: #545454;
+}
+.btn{
+  background-color: #226d8c;
+  color: white;
+  border: none;
+  padding: 10px 30px 10px 30px;
+  margin: 0px 10px 0px 0px;
+}
+.btn-primary{
+  background-color: #545454;
+  color: white;
+  border: none;
+}
+/******************* About Section ******************/
+.about-header{
+  text-align: center;
+}
+.about-header p{
+  text-align: center;
+  font-size: 16px;
+  color: #6A6A6A;
+  font-weight: normal;
+  padding: 0px 0px 30px 0px;
+}
+.about-content {
+  display: flex;
+  margin: 40px 0px 50px 0px;
+}
+.about-one{
+  padding: 0px 0px 0px 50px;
+}
+.about-content h5{
+  text-align: center;
+  color: #545454;
+}
+.about-content p{
+  text-align: center;
+  font-size: 16px;
+  color: #6A6A6A;
+  font-weight: normal;
+  padding: 10px 0px 30px 0px;
+}
+.about-img{
+  display: block;
+  margin: 0 auto;
+}
+.animate__animated.animate__bounceInLeft{
+  animation-duration: 3s;
+}
+
+
+.info{
+  background-color: #EEF0EB;
+}
+.info-two{
+  text-align: center;
+}
+.info-two p{
+  color: #6A6A6A;
+  text-align: justify;
+  padding: 33px 0px 0px 0px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+
+.service{
+
+}
+.service-margin{
+  padding: 0px 0px 150px 0px;
+}
+.service-one{
+
+}
+.service-one h5{
+  font-size: 25px;
+  padding: 100px 0px 0px 0px;
+  color: #545454;
+}
+.service-one p{
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+}
+.btn-service{
+  background: none;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 0px 0px 0px -10px;
+  color: #545454;
+}
+.btn-service:hover{
+  background: #A1BF73;
+}
+.service-two{
+  padding: 30px 0px 0px 0px;
+}
+.service-two h6{
+  font-size: 20px;
+  padding: 15px 0px 0px 0px;
+  color: #545454;
+}
+.service-two p{
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+  padding: 0px 30px 0px 67px;
+  color: #6A6A6A;
+}
+.service-img{
+  transition: 0.6s all;
+  cursor: pointer;
+}
+.service-img:hover{
+  transform: translateY(20px);
+}
+.btn-service-two{
+  background: none;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 0px 0px 0px 60px;
+  color: #545454;
+}
+.btn-service-two:hover{
+  background: skyblue;
+}
+
